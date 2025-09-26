@@ -1,0 +1,142 @@
+/* Reset & Body */
+body, html {
+  margin: 10;
+  padding: 0;
+  height: 100%;
+  background-color: #e8eff5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Dashboard Box */
+.dashboard {
+  width: 900px;
+  height: 600px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Left Panel: Greeting, Clock, Counter */
+.left-panel {
+  width: 45%;
+  background-color: #2f3e46;
+  color: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.greeting-section {
+  margin-bottom: 30px;
+}
+
+.input-box {
+  padding: 10px;
+  margin: 10px 10px 0 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 140px;
+}
+
+.input-box:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #84a98c;
+}
+
+.welcome-msg {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #a8dadc;
+  font-weight: 600;
+}
+
+.clock-display {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  font-family: monospace;
+  background-color: #354f52;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Counter Section */
+.counter-panel {
+  margin-top: 40px;
+}
+
+.counter-panel h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #fefae0;
+}
+
+.counter-panel button {
+  margin: 6px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.counter-panel button:hover {
+  transform: scale(1.05);
+}
+
+.a1 {
+  background-color: #52b788;
+}
+.a2 {
+  background-color: #f4a261;
+}
+.a3 {
+  background-color: #e63946;
+}
+.a4 {
+  background-color: #6a4c93;
+}
+
+/* Right Panel: Feedback Buttons and Results */
+.right-panel {
+  width: 55%;
+  padding: 30px;
+  background-color: #ffffff;
+  color: #1d3557;
+  box-sizing: border-box;
+}
+
+.feedback-panel h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.feedback-btn {
+  background-color: #457b9d;
+  color: white;
+  padding: 10px 18px;
+  margin: 10px 8px 0 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-btn:hover {
+  background-color: #1d3557;
+}
+
+.feedback-results {
+  margin-top: 25px;
+  font-size: 1rem;
+  background-color: #f1faee;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}

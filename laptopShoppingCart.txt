@@ -1,0 +1,69 @@
+1. Download the react folder structure using npx create-react-app.
+2. Install react-router-dom using npm install react-router-dom.
+3. Open index.js and wrap App component inside BrowserRouter component:
+	<BrowserRouter>
+	<App />
+	</BrowserRouter>
+4. Copy image folder inside public folder.
+5. Create components folder inside src and add below files:
+	Header.js
+	Home.js
+	MyCart.js
+6. Open gate bootstrap.com and copy cdn link. Paste it inside index.html file.
+7. Search how to display naive bar in react using bootstrap. Kindly provide source code with <Link> component and to attribute. I want to add 
+   organization name, Home, MyCart in naive bar. Kindly provide source code.
+
+
+
+**Home.js:
+
+import {usenavigate} from 'react-router-dom'
+import data from './data.json'
+function Home()
+{
+const x= UseNavigate();
+const handleSumit=(index.js)=>
+{
+var product=data[index];
+var productname.product.title;
+alert(productName+' has been added to cart');
+if(window.confirm("are u sure u want to purchase?")
+{
+x('./MyCart, (state.(product));
+}
+}
+return{
+<div ClassName="container">
+<div ClassName='row'>
+{data.map((productObj.index))=>{
+,div ClassName="col-3 text-center' key={index},
+<img src=(Obj.title.url) style = (width:250px);
+</div>
+}}}
+
+<div>
+,/div>}
+}
+export default Home;
+
+
+
+**MyCart.js
+
+import {uselocation} from react-router-dom
+function MyCart()
+{
+const x=uselocation();
+const product=x.state.product;
+if(!product)'{
+return product has been added to cart
+}
+return{
+<div className="MyCart text-center">
+mycart page
+product.title
+product.price
+</div>
+}
+}
+export default MyCart

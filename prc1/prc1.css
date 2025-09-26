@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(215, 215, 184);
+}
+
+.index{
+    margin-top: 150px;
+    font-size: 25px;
+    justify-items: center;
+    text-align: center;
+}
+button{
+    margin-left: auto;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
